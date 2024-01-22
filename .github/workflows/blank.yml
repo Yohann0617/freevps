@@ -7,10 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        arch: [arm64, armv7]
+    runs-on: ubuntu-latest-arm64
 
     steps:
       - name: Checkout code
